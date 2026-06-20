@@ -1,5 +1,5 @@
 city="Karachi";
-apiKey="zpka_6c83dd046bf348edae38a1a4a97bf701_f2581cca";
+apiKey="API_key";
 
 const btn=document.querySelector("#btn");
 const searchCity=document.querySelector("#input");
