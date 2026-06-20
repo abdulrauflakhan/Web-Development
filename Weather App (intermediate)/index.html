@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Forecast</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+        <div class="header">
+            <div class="search_bar">
+                <input type="text", id="input", placeholder= "Enter city...." >
+                <button type="button", id="btn">Search</button>
+            </div>
+        </div>
+        </header>
+       
+        <main>
+        <div class="upper-box">
+            <div class="left-box">
+                <div id="cityName">Karachi</div>
+                <div id="Date"></div>
+            </div>
+            <div class="center">
+                <div id="img">
+                    <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="weather icon" />
+                </div>
+            </div>
+            <div class="middle-box">
+                <div id="rainType"></div>
+            </div>
+            <div class="right-box">
+                <div id="temp"></div>
+                <div id="h_l"></div>
+            </div>
+        </div>    
+        </main>
+        <footer>
+            <div class="lower-box">
+                <div id="humidity">Humidity💧
+                    <div id="hv"></div>
+                </div>
+                <div id="wind">Wind💨
+                     <div id="wv"></div>
+                </div>
+                <div id="rain%">Rain 🌧
+                     <div id="rv"></div>
+                </div>
+                <div id="visibility">Visibility👁
+                     <div id="vv"></div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="logic.js"></script>
+</html>
