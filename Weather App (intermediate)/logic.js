@@ -22,7 +22,7 @@ btn.addEventListener("click",()=>{
     if(searchCity.value.trim()!==""){
         city=searchCity.value.trim();
         cityName.innerText=searchCity.value;
-        temperature();
+        weather();
     }
 });
 
